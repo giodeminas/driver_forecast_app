@@ -1,24 +1,11 @@
-# README
+A homework task for GP Transco
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Commands to run from the root directory:
 
-Things you may want to cover:
+bundle exec sidekiq
+ruby bin/rails db:migrate
+ruby bin/rails db:seed
+ruby bin/rails server
+cd alertable
+npm run start
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
