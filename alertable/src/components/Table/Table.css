@@ -1,0 +1,14 @@
+th svg.asc {
+    transform: rotate(180deg);
+}
+
+th svg.desc {
+    transform: rotate(0deg);
+}
+
+th .header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
